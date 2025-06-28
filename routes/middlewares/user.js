@@ -1,5 +1,4 @@
 const jwt=require("jsonwebtoken");
-const user = require("../user");
 const JWT_PASSWORD_USER="dfjfnfnklfndkfn";
 
 function usermiddleware(req,res,next){
@@ -7,7 +6,7 @@ function usermiddleware(req,res,next){
     const decoded=jwt.verify(tokken,JWT_PASSWORD_USER);
 
     if(decoded){
-        req.userID=decoded.id;
+        req.userId=decoded.id;
         next();
     }else{
         res.status(403).json({
@@ -16,7 +15,7 @@ function usermiddleware(req,res,next){
         })
     }
 }
-
+ 
 module.exports={
     usermiddleware:usermiddleware
 }
