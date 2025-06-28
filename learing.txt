@@ -1,0 +1,2 @@
+Routing in express
+we can use function approach also for doing the Routing
