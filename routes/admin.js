@@ -1,6 +1,7 @@
 const {Router}=require("express");
 const adminRouter=Router();
 
+
 adminRouter.post("/signin",(req,res)=>{
     res.json({
         message:"admin signin"

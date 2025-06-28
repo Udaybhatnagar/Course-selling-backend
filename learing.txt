@@ -1,2 +1,9 @@
 Routing in express
 we can use function approach also for doing the Routing
+database revison
+dotenv reading
+ctrl+shift+l
+passport js
+usedebounce hook
+cookie base authentication
+session base authentication

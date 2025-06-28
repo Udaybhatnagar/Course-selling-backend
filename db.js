@@ -1,5 +1,4 @@
 const mongoose=require("mongoose");
-mongoose.connect(""); //replace with the original db link
 const schema=mongoose.Schema;
 const ObjectId=mongoose.Types.ObjectId;
 
