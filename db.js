@@ -38,6 +38,7 @@ module.exports={
     UserModel,
     AdminModel,
     PurchaseModel,
+    knkdnfkdio,dsfidkfdfkndifjdlkfdflkmdofjdf,mdflkdfdfldmfl;dfml;f
     CourseModel,
 
 }
