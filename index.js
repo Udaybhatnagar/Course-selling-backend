@@ -1,3 +1,4 @@
+require('dotenv').config()
 
 const express=require("express");
 const app=express();
@@ -13,6 +14,6 @@ app.use("/admin",adminRouter);
 
 
 
-mongoose.connect("mongodb+srv://Uday:Uday123@cluster0.98j2hlz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0/Course-era"); //replace with the original db link
+mongoose.connect(process.env.Mongo_Url); //replace with the original db link
 console.log("connected to backend");
 app.listen(3000);

@@ -3,7 +3,7 @@ const adminRouter=Router();
 const {AdminModel,CourseModel}=require("../db")
 const jwt=require("jsonwebtoken");
 const { adminmiddleware } = require("./middlewares/admin");
-const JWT_PASSWORD_Admin="udaybahtnagaradmin";
+const JWT_PASSWORD_Admin=process.env.JWT_PASSWORD_Admin;
 
 
 adminRouter.post("/signup", async (req,res)=>{

@@ -4,7 +4,7 @@ const {usermiddleware}=require("./middlewares/user")
 const userRouter=Router();
 const {UserModel}=require("../db")
 const jwt=require("jsonwebtoken");
-const JWT_PASSWORD_USER="dfjfnfnklfndkfn";
+const JWT_PASSWORD_USER=process.env.JWT_PASSWORD_USER;
 
 
 
