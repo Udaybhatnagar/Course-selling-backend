@@ -3,7 +3,7 @@ const jwt=require("jsonwebtoken");
 const JWT_PASSWORD_Admin="udaybahtnagaradmin";
 
 function adminmiddleware(req,res,next){
-    const tokken=req.haders.token;
+    const tokken=req.headers.token;
     const decoded=jwt.verify(tokken,JWT_PASSWORD_Admin);
 
     if(decoded){
