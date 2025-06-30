@@ -13,12 +13,3 @@ creating web3 saas in which they tought about immage directly uploading pipeline
 
 dotenv ke bare mai padho..
 
-
-"tokken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NjIyNTBlMmRmNzAzYTI4YTZlNjdmNiIsImlhdCI6MTc1MTI2MjQ4M30.i0262R0LiSaRpg9eWJ_7dzUCZ9rp-AEJtZJCRGfzbcc"
-
-
-"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NjIyNTZlMmRmNzAzYTI4YTZlNjdmOSIsImlhdCI6MTc1MTI2MjU4MX0.B7_PshNyQvJT_NbnWGLCMBXcvpQ9bTFqSKNJQa2kzuE"
-
-
-68622769f69686c517dd3de5
-6862279ff69686c517dd3de7
